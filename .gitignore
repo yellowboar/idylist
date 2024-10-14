@@ -1,0 +1,37 @@
+# Python virtual environment
+venv/
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Django specific files
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Node.js artifacts (for Next.js)
+node_modules/
+.next/
+npm-debug.log
+yarn-error.log
+
+# Docker files
+docker-compose.override.yml
+docker-compose.*.yml
+docker-compose*.log
+/var/lib/postgresql/data/
+
+# Logs and debugging files
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+.Trash-*
+
