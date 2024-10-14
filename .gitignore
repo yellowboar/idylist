@@ -12,12 +12,6 @@ media/
 staticfiles/
 static/
 
-# Node.js artifacts (for Next.js)
-node_modules/
-.next/
-npm-debug.log
-yarn-error.log
-
 # Docker files
 docker-compose.override.yml
 docker-compose.*.yml
